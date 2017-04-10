@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="  mui-icon mui-icon-left-nav mui-pull-left" id="close"></a>
+			<h1 class="mui-title">广发银行</h1>
+		</header>
+		<div class="mui-content">
+			<iframe src="http://m.cgbchina.com.cn/subsite/201601/20363029/002293/index.html?utm_source=baidu&utm_medium=cpc&utm_term=广发银行信用卡中心&utm_campaign=5品牌类%2D信用卡核心%5F无线293%5F2" width="100%" height="100%"></iframe>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			mui.plusReady(function(){
+				document.getElementById("close").addEventListener('tap',function(){
+					var _this=plus.webview.currentWebview();
+					_this.close();
+				});
+			});
+		</script>
+	</body>
+
+</html>

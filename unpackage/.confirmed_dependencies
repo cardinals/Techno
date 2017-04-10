@@ -1,0 +1,223 @@
+{
+  "index.html": {
+    "href": "index.html",
+    "priority": 0,
+    "resources": [],
+    "refer": []
+  },
+  "login.html": {
+    "resources": [
+      "js/app.js",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "js/mui.enterfocus.js",
+      "images/sinaweibo.png",
+      "images/weixin.png",
+      "images/qq.png"
+    ],
+    "refer": [
+      "main.html",
+      "reg.html",
+      "tab-webview-main.html"
+    ]
+  },
+  "reg.html": {
+    "resources": [
+      "css/style.css"
+    ],
+    "refer": [
+      "login.html"
+    ]
+  },
+  "tab-webview-main.html": {
+    "resources": [
+      "tab-webview-subpage-about.html",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "fonts/mui.ttf",
+      "css/iconfont.css",
+      "fonts/iconfont.ttf",
+      "css/iconfont.ttf"
+    ],
+    "refer": [
+      "tab-webview-subpage-about.html",
+      "tab-webview-subpage-setting.html",
+      "tab-webview-subpage-chat.html",
+      "tab-webview-subpage-contact.html"
+    ]
+  },
+  "tab-webview-subpage-contact.html": {
+    "resources": [
+      "css/mui.min.css",
+      "js/mui.min.js"
+    ],
+    "refer": []
+  },
+  "tab-webview-subpage-about.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "fonts/iconfont.ttf",
+      "css/iconfont.css"
+    ],
+    "refer": [
+      "nongye.html",
+      "gongshang.html",
+      "zhongxin.html",
+      "zhaoshang.html",
+      "pufa.html",
+      "jianshe.html",
+      "guangfa.html",
+      "pingan.html",
+      "huifeng.html"
+    ]
+  },
+  "zhaoshang.html": {
+    "resources": [
+      "fonts/mui.ttf",
+      "js/mui.min.js"
+    ],
+    "refer": []
+  },
+  "huifeng.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "nongye.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "gongshang.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "jianshe.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "zhongxin.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "guangfa.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "pingan.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "pufa.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "tab-webview-subpage-chat.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "css/iconfont.css",
+      "fonts/iconfont.ttf"
+    ],
+    "refer": [
+      "sreach/_search_gongshang.html",
+      "sreach/_search_pingan.html",
+      "sreach/_search_zhaoshang.html",
+      "sreach/_search_nongye.html",
+      "sreach/_search_huifeng.html",
+      "sreach/_search_zhongxin.html",
+      "sreach/_search_guangfa.html",
+      "sreach/_search_jianshe.html",
+      "sreach/_search_pufa.html"
+    ]
+  },
+  "sreach/_search_gongshang.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "sreach/_search_nongye.html": {
+    "resources": [
+      "js/mui.min.js"
+    ],
+    "refer": []
+  },
+  "sreach/_search_guangfa.html": {
+    "resources": [
+      "js/mui.min.js"
+    ],
+    "refer": []
+  },
+  "sreach/_search_zhongxin.html": {
+    "resources": [
+      "js/mui.min.js"
+    ],
+    "refer": []
+  },
+  "sreach/_search_pingan.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "sreach/_search_jianshe.html": {
+    "resources": [
+      "js/mui.min.js"
+    ],
+    "refer": []
+  },
+  "sreach/_search_zhaoshang.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "tab-webview-subpage-setting.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": [
+      "login.html"
+    ]
+  }
+}

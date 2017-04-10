@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="  mui-icon mui-icon-left-nav mui-pull-left" id="close"></a>
+			<h1 class="mui-title">招商信用卡进度查询</h1>
+		</header>
+		<div class="mui-content">
+			<iframe src="https://ccclub.cmbchina.com/mca/MQuery.aspx?WT.refp=%2Fcard-progress$" width="100%" height="100%"></iframe>
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			mui.plusReady(function(){
+				document.getElementById("close").addEventListener('tap',function(){
+					var _thisWeb=plus.webview.currentWebview();
+					_thisWeb.close();
+				});
+			});
+		</script>
+	</body>
+
+</html>

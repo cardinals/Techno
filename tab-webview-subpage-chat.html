@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<style>
+			html,
+			body {
+				background-color: #efeff4;
+			}
+			.title {
+				padding: 20px 15px 10px;
+				color: #6d6d72;
+				font-size: 15px;
+				background-color: #fff;
+			}
+			.icon-gongshangyinhang{
+				color: #FF0000;
+			}
+			.icon-nongyeyinxing1{
+				color:#63A35C
+			}
+			.icon-zhongxinyinhang{
+				color:#CF2D28
+			}
+			.icon-guangfayinhang{
+				color: #DD524D;	
+			}
+			.icon-pinganyinhang{
+				color:#EC971F
+			}
+			.icon-huifengyinhang{
+				color:#CF2D28
+			}
+			.icon-jiansheyinhang{
+				color: #0062CC;
+			}
+			.icon-pufayinhang{
+				color: #0062CC;
+			}
+			.icon-zhaoshangyinhang{
+				color:#CF2D28
+			}
+		</style>
+	</head>
+	<body>
+		<div class="mui-content ">
+			<ul class="mui-table-view mui-grid-view mui-grid-9">
+					<li id="gongshang" class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						<a href="#">
+							<span class="mui-icon iconfont icon-gongshangyinhang"></span>
+							<div class="mui-media-body">工行进度</div>
+						</a>
+					</li>
+					<li id="nongye" class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						<a href="#">
+							<span class="mui-icon iconfont icon-nongyeyinxing1"></span>
+							<div class="mui-media-body">农行进度</div>
+						</a>
+					</li>
+					<li id="zhongxin" class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						<a href="#">
+							<span class="mui-icon iconfont icon-zhongxinyinhang"></span>
+							<div class="mui-media-body">中信进度</div>
+						</a>
+					</li>
+					<li id="gaungfa" class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						<a href="#">
+							<span class="mui-icon iconfont icon-guangfayinhang "></span>
+							<div class="mui-media-body">广发进度</div>
+						</a>
+					</li>
+					<li id="pingan" class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						<a href="#">
+							<span class="mui-icon iconfont icon-pinganyinhang"></span>
+							<div class="mui-media-body">平安进度</div>
+						</a>
+					</li>
+					<li id="huifeng" class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						<a href="#">
+							<span class="mui-icon iconfont icon-huifengyinhang"></span>
+							<div class="mui-media-body">汇丰进度</div>
+						</a>
+					</li>
+					<li id="jianshe" class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						<a href="#">
+							<span class="mui-icon iconfont icon-jiansheyinhang"></span>
+							<div class="mui-media-body">建设进度</div>
+						</a>
+					</li>
+					<li id="pufa" class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						<a href="#">
+							<span class="mui-icon iconfont icon-pufayinhang"></span>
+							<div class="mui-media-body">浦发进度</div>
+						</a>
+					</li>
+					<li id="zhaoshang" class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						<a href="#">
+							<span class="mui-icon iconfont icon-zhaoshangyinhang"></span>
+							<div class="mui-media-body">招商进度</div>
+						</a>
+					</li>
+				</ul>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script>
+			mui.init();
+			mui.plusReady(function(){
+				document.getElementById("gongshang").addEventListener('tap',function(){
+					plus.webview.create('sreach/_search_gongshang.html','_search_gongshang');
+					mui.openWindow({id:'_search_gongshang'});
+				});
+				document.getElementById("nongye").addEventListener('tap',function(){
+					plus.webview.create('sreach/_search_nongye.html','_search_nongye');
+					mui.openWindow({id:'_search_nongye'});
+				});
+				document.getElementById("zhongxin").addEventListener('tap',function(){
+					plus.webview.create('sreach/_search_zhongxin.html','_search_zhongxin');
+					mui.openWindow({id:'_search_zhongxin'});
+				});
+				document.getElementById("gaungfa").addEventListener('tap',function(){
+					plus.webview.create('sreach/_search_guangfa.html','_search_gaungfa');
+					mui.openWindow({id:'_search_gaungfa'});
+				});
+				document.getElementById("pingan").addEventListener('tap',function(){
+					plus.webview.create('sreach/_search_pingan.html','_search_pingan');
+					mui.openWindow({id:'_search_pingan'});
+				});
+				document.getElementById("huifeng").addEventListener('tap',function(){
+					plus.webview.create('sreach/_search_huifeng.html','_search_huifeng');
+					mui.openWindow({id:'_search_huifeng'});
+				});
+				document.getElementById("jianshe").addEventListener('tap',function(){
+					plus.webview.create('sreach/_search_jianshe.html','_search_jianshe');
+					mui.openWindow({id:'_search_jianshe'});
+				});
+				document.getElementById("pufa").addEventListener('tap',function(){
+					plus.webview.create('sreach/_search_pufa.html','_search_pufa');
+					mui.openWindow({id:'_search_pufa'});
+				});
+				document.getElementById("zhaoshang").addEventListener('tap',function(){
+					plus.webview.create('sreach/_search_zhaoshang.html','_search_zhaoshang');
+					mui.openWindow({id:'_search_zhaoshang'});
+				});
+				/*
+		 * 设置JS使页面定时销毁
+		 */
+		var myDate = new Date();
+		var _thisYear= myDate.getFullYear();
+		var _thisMonth=myDate.getMonth()+1;
+		var _thisDay=myDate.getDate();
+		var _thistime=_thisYear+"-"+_thisMonth+"-"+_thisDay
+		var oldTime="2017-3-15";
+        var result = compareDate(_thistime,oldTime);
+        if ( result>0 ) {
+        	//_thistime>oldtime 时 说明过期，设置页面空白
+        	document.getElementById("content").innerHTML="";
+        }
+		 /** 日期比较 **/
+            function compareDate(strDate1,strDate2)
+            {
+                var date1 = new Date(strDate1.replace(/\-/g, "\/"));
+                var date2 = new Date(strDate2.replace(/\-/g, "\/"));
+                return date1-date2;
+            }
+				
+			});
+		</script>
+	</body>
+</html>
